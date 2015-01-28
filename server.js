@@ -6,7 +6,7 @@ app.get('/', function(request, response){
 });
 
 app.get('/nickname', function(request, response){
-    response.send('Hello, I'm sleepycoder. Never sleeping, only sleepy. Yep!');
+    response.send("Hello, I'm sleepycoder. Never sleeping, only sleepy. Having money is so renxing, Yeah!");
 });
 
 app.listen(process.env.PORT || 4000);
